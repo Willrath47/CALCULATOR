@@ -1,0 +1,39 @@
+.Clear{
+    height: 4vh;
+    width: 90%;
+    font-size: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+
+
+}
+.Clear:hover{
+    cursor: pointer;
+
+}
+
+
+@media screen and (max-width:770px) {
+    .Clear{
+        
+        margin-top:0.1vh;
+        height: 5vh;
+        width: 90%;
+        font-size: 4vh;
+           
+    }
+}
+@media screen and (max-width:480px) {
+    .Clear{
+        margin-top:0.1vh;
+        height: 5vh;
+        width: 90%;
+        font-size: 4vh;
+
+    }
+    
+}

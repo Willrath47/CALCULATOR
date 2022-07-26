@@ -1,0 +1,51 @@
+
+.boton-contenedor{
+    height:12vh;
+    width: 11vh;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 38px;
+    background-color: #1b1b32;
+    border: solid white 0.1vh;
+    margin-top: 1.5vh;
+
+}
+
+.boton-contenedor:hover{
+    cursor: pointer;
+    background-color:rgb(102, 252, 241) ;
+}
+.fila{
+    flex-wrap: wrap ;
+}
+.operador{
+    background-color:rgb(8, 15, 25);
+}
+.operador:hover{
+    background-color:rgb(197, 198, 200);
+}
+
+
+
+
+
+
+@media screen and (max-width:770px ) {
+ 
+    .boton-contenedor{
+        width: 8vh;
+
+    }
+    
+} 
+@media screen and (max-width:700px) {
+
+    .boton-contenedor{
+        width: 8vh;
+
+    }
+    
+}

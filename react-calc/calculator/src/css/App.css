@@ -1,0 +1,203 @@
+html{
+    background-image:url(../imagen/blob.svg);
+    background-blend-mode:darken;
+    background-size: cover;
+    background-position: center center;
+    background-attachment:fixed;
+    /* background-color: rgba(0, 0, 0, 0.535);   */
+    /* background-blend-mode:darken; */
+   
+
+}
+
+
+
+.inicio-logo-container{
+    margin-top:3vh ;
+    margin-bottom:1vh ;
+    padding: 3vh;
+    height: 1vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: bolder;
+    color: white;
+    color: rgb(0, 0, 0);
+   
+
+}
+.App{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: none;
+    padding: none;
+}
+
+p{
+    color: rgb(102, 252, 241);
+    padding-right: 1.5vh;
+    font-size: 6vh;
+    
+    
+}
+hr{
+    width: 100%;
+    color: rgb(0, 18, 32);
+    border-width:0;
+    height:0.000000001vhx;
+}
+.inicio-logo{
+    
+    height: 7vh;
+    color: rgb(197, 198, 200);
+    border-radius: 1.2vh;
+}
+
+.contenedor-calculadora2{
+    width: 50vh;
+    display: flex;
+    color: rgb(197, 198, 200);
+    border-radius:20px ;
+    background-color: rgb(11, 12, 16);
+    border:solid rgb(197, 198, 200);
+    justify-content: center;
+    align-items:flex-start;
+}
+.contenedor-calculadora3{
+    width: 50vh;
+    display: flex;
+    color: rgb(197, 198, 200);
+    border-radius: 0px 0px 20px 20px ;
+    background-color: #1b1b32;
+    border:solid rgb(197, 198, 200);
+    justify-content: center;
+   
+}
+.contenedor-calculadora3:hover{
+    background-color: rgb(102, 252, 241);
+
+}
+
+.contenedor-calculadora{
+    
+    width: 50vh;
+    display: flex;
+    color: rgb(197, 198, 200);
+    border-radius: 20px 20px 0px 0px  ;
+    background-color: rgb(11, 12, 16);
+    border:solid rgb(197, 198, 200);
+    justify-content: center;
+    align-items:flex-start;
+    height: 57vh;
+    
+    
+
+}
+.chasis{
+    height: 85vh;
+    width: 55vh;
+    border-radius: 20px ;
+    background-color:rgb(11, 12, 16);
+    border:solid white;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+   
+
+
+}
+.boton1{
+    margin-left: 5vh;
+}
+.fila{
+    margin: 0.4vh;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    
+}
+
+@media screen and (max-width:770px) {
+ 
+    .contenedor-calculadora2{
+        width: 87%;
+    }
+    .contenedor-calculadora{
+    
+        width: 87%;
+        height: 57vh;
+       
+    
+    }
+    .contenedor-calculadora3{
+        width: 87%;
+        height: 8vh;
+        margin: none;
+    }
+    .chasis{
+        height: 80vh;
+        width: 42vh;
+       
+    
+    
+    }
+    
+}
+@media screen and (max-width:450px) {
+ 
+    .inicio-logo-container{
+        
+        font-size: 5vh;
+
+    
+    }
+    html{
+       
+       
+        background-size: cover;
+        background-position:top ;
+        background-attachment:fixed;
+  
+    }
+    .contenedor-calculadora2{
+        width: 80%;
+    }
+    .contenedor-calculadora{
+    
+        width: 80%;
+        height: 5vh;
+       
+    
+    }
+    
+}
+@media screen and (max-width:450px) {
+    .contenedor-calculadora2{
+        width: 87%;
+    }
+    .contenedor-calculadora{
+    
+        width: 87%;
+        height: 57vh;
+       
+    
+    }
+    .contenedor-calculadora3{
+        width: 87%;
+        height: 5vh;
+        margin: none;
+    }
+    .chasis{
+        height: 80vh;
+        width: 42vh;
+       
+    
+    
+    }
+
+}
